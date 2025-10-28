@@ -1,0 +1,59 @@
+# Alacritty Burnt-Orange-ish Colorscheme
+
+[colors.primary]
+background = "#2B2118"  # Very dark, warm brown
+foreground = "#F5E6CA"  # Cream/light beige text
+
+[colors.cursor]
+cursor = "#D95F0E"  # Main burnt orange
+text   = "#2B2118"  # Same as background
+
+[colors.normal]
+black   = "#2B2118"  # Same as background
+red     = "#D62828"  # Strong red
+green   = "#8C9A4B"  # Earthy green
+yellow  = "#D95F0E"  # Main burnt orange
+blue    = "#6A8A9F"  # Muted slate blue
+magenta = "#F0A202"  # Gold/yellow-orange
+cyan    = "#4B9A8C"  # Muted teal
+white   = "#F5E6CA"  # Same as foreground
+
+[colors.bright]
+black   = "#544237"  # Muted brown (brighter black)
+red     = "#E63E3E"  # Brighter red
+green   = "#A8B85F"  # Brighter earthy green
+yellow  = "#FFCA28"  # Bright yellow/gold
+blue    = "#8AA8BF"  # Brighter slate blue
+magenta = "#FFB733"  # Brighter gold
+cyan    = "#6ACAAE"  # Brighter teal
+white   = "#FFFFFF"  # Pure white
+[font]
+size = 9.0
+
+[font.bold]
+family = "Hack Nerd Font Mono"
+style = "Bold"
+
+[font.bold_italic]
+family = "monospace"
+style = "Bold Italic"
+
+[font.italic]
+family = "Hack Nerd Font Mono"
+style = "Italic"
+
+[font.normal]
+family = "Hack Nerd Font Mono"
+style = "Regular"
+
+[[keyboard.bindings]]
+action = "ToggleFullscreen"
+key = "F11"
+
+[scrolling]
+history = 50000
+
+[window]
+opacity = 0.9
+
+[keyboard]
