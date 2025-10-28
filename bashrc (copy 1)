@@ -1,0 +1,16 @@
+#
+# ~/.bashrc
+#
+
+# If not running interactively, don't do anything
+[[ $- != *i* ]] && return
+PS1='[\u@\h \W]\$ '
+
+fastfetch
+
+alias vim='nvim'
+alias g='git'
+alias ls='lsd -AFh'
+alias ll='ls -l'
+alias touchpad='xinput set-prop 10 348 1'
+alias cleanup='sudo pacman -Rns $(pacman -Qtdq)'
